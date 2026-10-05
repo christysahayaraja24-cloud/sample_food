@@ -1,0 +1,10 @@
+{
+  "name": "a-cooked-again",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "configure": "node scripts/generate-config.mjs",
+    "build": "node scripts/generate-config.mjs --optional",
+    "check": "node scripts/check-project.mjs"
+  }
+}
